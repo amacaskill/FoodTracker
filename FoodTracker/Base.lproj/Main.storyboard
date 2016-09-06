@@ -35,6 +35,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="za9-kT-NFL">
                                         <rect key="frame" x="0.0" y="75" width="151" height="30"/>
                                         <state key="normal" title="Set Default Label Text"/>
+                                        <connections>
+                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CJQ-fn-Raq"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -43,6 +46,12 @@
                                     <constraint firstItem="EJP-Tn-gfn" firstAttribute="leading" secondItem="qhC-ll-fjx" secondAttribute="leading" id="M5a-3F-J39"/>
                                     <constraint firstAttribute="trailing" secondItem="EJP-Tn-gfn" secondAttribute="trailing" id="Wn4-7O-lpx"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3bR-IA-W6d"/>
+                                        <exclude reference="Wn4-7O-lpx"/>
+                                    </mask>
+                                </variation>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -52,10 +61,15 @@
                             <constraint firstAttribute="trailingMargin" secondItem="qhC-ll-fjx" secondAttribute="trailing" id="qQz-Tz-l27"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mealNameLabel" destination="U0L-bq-1VG" id="Mez-pu-zrO"/>
+                        <outlet property="nameTextField" destination="EJP-Tn-gfn" id="at9-iH-fzu"/>
+                        <outlet property="setDefaultLabelText" destination="za9-kT-NFL" id="80G-yO-huH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="203" y="236"/>
+            <point key="canvasLocation" x="187" y="194"/>
         </scene>
     </scenes>
 </document>
