@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FoodTracker/ViewController.swift"
@@ -19,14 +19,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FoodTracker.ViewController.__deallocating_deinit"
                   moduleName = "FoodTracker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Hahege/Desktop/FoodTracker/FoodTracker/ViewController.swift"
-                  timestampString = "494524054.593988"
+                  timestampString = "495165691.506822"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -34,14 +34,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FoodTracker.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; FoodTracker.ViewController"
                   moduleName = "FoodTracker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Hahege/Desktop/FoodTracker/FoodTracker/ViewController.swift"
-                  timestampString = "494524054.597295"
+                  timestampString = "495165691.506959"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "11"
@@ -49,14 +49,14 @@
                   offsetFromSymbolStart = "107">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FoodTracker.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FoodTracker.ViewController&gt;"
                   moduleName = "FoodTracker"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Hahege/Desktop/FoodTracker/FoodTracker/ViewController.swift"
-                  timestampString = "494524054.59749"
+                  timestampString = "495165691.507069"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "11"
@@ -64,6 +64,38 @@
                   offsetFromSymbolStart = "105">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodTracker/ViewController.swift"
+            timestampString = "495166066.045301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodTracker/ViewController.swift"
+            timestampString = "495261241.156261"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

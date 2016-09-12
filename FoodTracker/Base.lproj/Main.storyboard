@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -19,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="xts-2D-lBv">
-                                <rect key="frame" x="15" y="72" width="560" height="105"/>
+                                <rect key="frame" x="20" y="74" width="560" height="437"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eir-BB-YBn">
                                         <rect key="frame" x="0.0" y="0.0" width="560" height="21"/>
@@ -35,7 +36,16 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuk-Ku-2bq">
                                         <rect key="frame" x="0.0" y="75" width="151" height="30"/>
                                         <state key="normal" title="Set Default Label Text"/>
+                                        <connections>
+                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hOa-KM-icz"/>
+                                        </connections>
                                     </button>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="DefaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="62o-jU-jCT">
+                                        <rect key="frame" x="0.0" y="117" width="320" height="320"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="62o-jU-jCT" secondAttribute="height" multiplier="1:1" id="7Jl-oV-PvL"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Eir-BB-YBn" firstAttribute="top" secondItem="xts-2D-lBv" secondAttribute="top" constant="12" id="EgB-YT-N0T"/>
@@ -50,10 +60,17 @@
                             <constraint firstAttribute="trailingMargin" secondItem="xts-2D-lBv" secondAttribute="trailing" id="mSp-bc-Hmg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mealNameLabel" destination="Eir-BB-YBn" id="gYP-5O-ayt"/>
+                        <outlet property="nameTextField" destination="cVX-X3-Trv" id="yvM-Pf-Df5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="218" y="321"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="DefaultPhoto" width="210" height="193"/>
+    </resources>
 </document>
